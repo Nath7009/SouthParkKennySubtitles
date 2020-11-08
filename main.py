@@ -207,13 +207,13 @@ def get_links():
 
 links = get_links()
 
-
+"""
 dialogs = get_dialogs(links[0][3])
 subs = extract_subtitles("South Park S01E04 MULTi 1080p BluRay x264-GLaDOS.mkv")
 subs_array = list(subs)
 new_subs = insert_kenny_lines(dialogs, subs_array)
 rewrite_subtitles(new_subs, "South Park S01E04 MULTi 1080p BluRay x264-GLaDOS.mkv", "out/South Park S01E04 MULTi 1080p BluRay x264-GLaDOS.mkv")
-
+"""
 i=0
 for folder in glob("Y:\Series\South Park S01-S21 MULTi 1080p BluRay x264-GLaDOS/*/"):
     fol = folder[3:]
